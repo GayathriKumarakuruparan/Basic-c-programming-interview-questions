@@ -1,7 +1,7 @@
 #include <stdio.h>
 float fahrenheit(float val)
 {
-    return ((val*9)/5)+35;
+    return ((val*9)/5)+32;
 }
 int main()
 {

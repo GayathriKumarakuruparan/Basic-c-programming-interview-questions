@@ -25,5 +25,5 @@ int main()
     printf("Enter the string:\n");
     scanf(" %[^\n]",str);
     char *res=remove_duplicate(str);
-    printf("the concatenate string is: \n%s",res);
+    printf("the  string that removed duplicate char is: \n%s",res);
 }

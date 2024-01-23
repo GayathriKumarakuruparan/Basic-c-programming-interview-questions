@@ -17,5 +17,5 @@ int main()
             }
         }
     }
-    printf("String before sorting - %s",str);
+    printf("String after sorting - %s",str);
 }

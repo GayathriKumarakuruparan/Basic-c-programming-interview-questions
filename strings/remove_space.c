@@ -18,7 +18,6 @@ char *remove_space(char *str)
 int main()
 {
     char str[100];
-    int alpha=0,digit=0,special_char=0;
     printf("Enter the string:\n");
     scanf(" %[^\n]",str);
     char *res=remove_space(str);

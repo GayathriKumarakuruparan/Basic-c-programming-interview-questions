@@ -6,7 +6,7 @@ void swap(int *element1,int *element2)
     *element1=*element2;
     *element2=temp;
 }
-void second_largest_number(int *arr,int *size)
+void reverse_array(int *arr,int *size)
 {
     int last=*size-1;
     for(int i=0;i<(*size/2);i++)
@@ -30,6 +30,6 @@ int main()
         scanf("%d",&arr[i]);
     }
     printf("After reverse:\n");
-    second_largest_number(arr,&size);
+    reverse_array(arr,&size);
   
 }

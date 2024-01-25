@@ -31,5 +31,5 @@ int main()
     }
     printf("After reverse:\n");
     reverse_array(arr,&size);
-  
+    free(arr);
 }

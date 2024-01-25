@@ -31,4 +31,5 @@ int main()
     second= arr[1];
     second_largest_number(arr,&size,&first,&second);
     printf("The top two max numbers are %d and %d",first,second);
+    free(arr);
 }

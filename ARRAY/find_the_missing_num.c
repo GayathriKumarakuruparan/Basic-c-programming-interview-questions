@@ -13,5 +13,6 @@ int main()
     }
     missing = ((size * (size + 1))/2) - sum;
     printf("The missing number is %d",missing);
+    free(arr);
     return 0;
 }

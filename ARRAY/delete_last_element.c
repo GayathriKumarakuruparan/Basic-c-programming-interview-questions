@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    int size,new_element,position,i,last,next;
+    int size,i;
     printf("Enter the size:\n");
     scanf("%d",&size);
     printf("Enter the arrays:\n");

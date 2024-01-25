@@ -31,4 +31,5 @@ int main()
     largest = smallest = arr[0];
     largest_and_smallest(arr,&size,&largest,&smallest);
     printf("the largest number in this array : %d and the smallest number is %d",largest,smallest);
+    free(arr);
 }

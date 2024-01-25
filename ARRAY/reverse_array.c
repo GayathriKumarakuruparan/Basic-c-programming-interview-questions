@@ -20,7 +20,7 @@ void second_largest_number(int *arr,int *size)
 }
 int main()
 {
-    int size,first,second;
+    int size;
     printf("Enter the size\n");
     scanf("%d",&size);
     int *arr=calloc(size,sizeof(int));
@@ -29,8 +29,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    first = arr[0];
-    second= arr[1];
     printf("After reverse:\n");
     second_largest_number(arr,&size);
   

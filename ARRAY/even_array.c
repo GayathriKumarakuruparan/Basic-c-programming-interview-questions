@@ -20,6 +20,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("After removed:\n");
+    printf("Even array:\n");
     even_array(arr,&size);
 }

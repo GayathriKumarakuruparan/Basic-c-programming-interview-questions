@@ -22,11 +22,8 @@ int main()
     }
     int total_size=size1+size2;
     arr=realloc(arr,total_size*sizeof(int));
-    printf("size1:%d\n",size1);
-    
     for(i=size1;i<total_size;i++)
     {
-       
         arr[i]=arr2[j++];
     }
     printf("After merge:\n");

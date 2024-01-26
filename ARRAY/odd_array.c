@@ -20,6 +20,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("After removed:\n");
+    printf("Odd array:\n");
     odd_array(arr,&size);
 }

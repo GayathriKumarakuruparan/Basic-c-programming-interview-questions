@@ -19,7 +19,6 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("After removed:\n");
     sum_of_array(arr,&size,&sum);
     printf("The sum of the array is %d",sum);
 }

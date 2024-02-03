@@ -37,7 +37,7 @@ main ()
   scanf ("%d", &val1);
   printf ("where should it placed:");
   scanf ("%d", &val2);
-  if ((val1 <= row) && (val2 <= row))
+  if ((val1 <= col) && (val2 <= col))
 	{
 	  interchange_matrix_col (col, arr, row, val1, val2);
 	  for (i = 0; i < row; i++)

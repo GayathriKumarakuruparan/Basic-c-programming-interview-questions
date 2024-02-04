@@ -45,7 +45,7 @@ main ()
 			}
 		  else
 			{
-			  printf (" ");
+			  printf ("  ");
 			}
 
 		}

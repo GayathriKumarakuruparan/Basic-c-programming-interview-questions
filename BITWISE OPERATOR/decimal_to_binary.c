@@ -1,3 +1,5 @@
+/*n this C program, we will read an integer (decimal) number and print its Binary values (Binary number).*/
+
 #include <stdio.h>
 
 int main()

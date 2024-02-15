@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int
+main ()
+{
+  unsigned int num;
+  printf ("enter the hexadecimal value: ");
+  scanf ("%u", &num);                        //200-> 1100 1000
+  unsigned int get_1st_word = num & ((1 << 4) - 1);
+  unsigned int get_2nd_word = num;
+  for (int i = 0; i < 4; i++)
+	{
+	  get_2nd_word = get_2nd_word & (~(1 << i));
+	}
+  unsigned int temp = get_1st_word << 4;
+  unsigned int temp2 = get_2nd_word >> 4;
+  unsigned int result = temp | temp2;     //1000 1100 -> 140
+  printf ("The count of set bits in this num is %u", result); //140
+  return 0;
+}

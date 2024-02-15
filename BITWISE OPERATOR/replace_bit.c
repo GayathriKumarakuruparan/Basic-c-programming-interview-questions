@@ -41,3 +41,22 @@ main ()
   printf ("Enter the num value after the replacement: %d", num);
   return 0;
 }
+/*Another prespection*/
+
+#include <stdio.h>
+
+int
+main ()
+{
+  unsigned int num, num2;
+  printf ("enter the numbers: ");
+  scanf ("%d %d", &num, &num2);
+  int pos, bit;
+  printf ("Enter the position: ");
+  scanf ("%d", &pos);
+  int get;
+  get = num2 & (1 << pos);
+  num = num |get;
+  printf ("Enter the num value after the replacement: %d", num);
+  return 0;
+}

@@ -56,7 +56,18 @@ main ()
   scanf ("%d", &pos);
   int get;
   get = num2 & (1 << pos);
-  num = num |get;
+  if(get!=0)
+  {
+       num = num |get;
+  }
+ else
+ {
+     int flag = 255; //FF, all bit set to 1(considering 8 bit)
+    get = 1 << pos;
+    //this set only the specified position bit 0 others 1
+    flag = flag ^ get;
+   num &= flag;
+ }
   printf ("Enter the num value after the replacement: %d", num);
   return 0;
 }
